@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Event</title>
+  <link href="./images/schedule.png" rel="icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dai+Banna+SIL:wght@600&family=Inter:wght@200;500&family=Montserrat:wght@900&family=Open+Sans:wght@300&family=Pacifico&family=Rubik:wght@700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/all.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <!-- navbar slide -->
+  <nav class="sideBarContainer position-fixed top-0 start-0 overflow-x-hidden bg-black  d-flex text-white bg-danger ">
+    <div class="slideBar d-flex flex-column">
+      <a  class="closebtn position-absolute text-white "><i class="fa-solid fa-xmark fs-4"></i></a>
+      <a class="text-white pt-5 ps-4 pb-4 fs-5" href="#home">Home</a>
+      <a class="text-white ps-4 pb-4 fs-5" href="#slider">Duration</a>
+      <a class="text-white ps-4 pb-4 fs-5" href="#count">Details</a>
+      <a class="text-white ps-4 fs-5 " href="#contact-us">Contact</a>
+    </div>
+  </nav>
+  <!-- header -->
+  <header id="home" class="home">
+    <div class="d-flex align-items-center  bg-danger h-100 bg-opacity-50">
+    <div class="container">
+      <div class="content text-white text-center">
+        <h1 class="fw-bolder">ُEgyption Party</h1>
+        <p>Let's have Fun</p>
+      <h3 class="sideBarIcon float-start"><i class="fa-solid fa-bars pe-2 fs-5 fw-bold"></i>open</h3>
+      </div>
+    </div>
+    </div>
+  </header>
+  <!-- slider -->
+  <section id="slider" class="slider bg-danger bg-opacity-75 w-50 text-center">
+    <h3 class="toggle p-2 text-white">ٍSinger one</h3>
+    <div class="inner  first p-2">
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+      mollit anim id est laborum."
+    </div>
+    <h3 class="toggle p-2 text-white">ٍSinger two</h3>
+    <div class="inner p-2">
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+      mollit anim id est laborum."
+    </div>
+    <h3 class="toggle p-2 text-white">ٍSinger three</h3>
+    <div class="inner p-2">
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+      mollit anim id est laborum."
+    </div>
+    <h3 class="toggle p-2 text-white">ٍSinger four</h3>
+    <div class="inner p-2">
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+      mollit anim id est laborum."
+    </div>
+  </section>
+  <!-- counter Events -->
+  <section class="counter text-white  ">
+    <div id="count" class="d-flex justify-content-center align-items-center bg-danger p-5 bg-opacity-75 h-100">
+      <div class="container">
+        <div class="row">
+          <!-- days -->
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-num border border-2 text-center fs-3 fw-bolder p-4 mb-2">
+              <span class="counterOfDays"></span>
+            </div>
+          </div>
+          <!-- hours -->
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-num border border-2 text-center fs-3 fw-bolder p-4 mb-2">
+              <span class="counterOfHours"></span>
+            </div>
+          </div>
+          <!-- minutes -->
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-num border border-2 text-center fs-3 fw-bolder p-4 mb-2">
+              <span class="counterOfMin"></span>
+            </div>
+          </div>
+          <!-- second -->
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-num border border-2 text-center fs-3 fw-bolder p-4 mb-2">
+              <span class="counterOfSec"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact us -->
+  <section id="contact-us" class="contactUs m-5 pt-5">
+    <div class="container">
+      <div class="title ps-5">
+        <h2 class="fw-bold fs-2 text-uppercase text-secondary-emphasis">
+          Join Us
+        </h2>
+        <p class="text-center text-body-tertiary fs-6 fw-light">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="con-info ps-5">
+            <h3 class="fs-5 fw-bold text-secondary-emphasis"><strong>CONTACT INFO</strong></h3>
+            <p class="text-body-tertiary text-center">
+              Why you should hire me writeup Lorem ipsum dolor sit amet,
+              consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+              Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+            </p>
+
+            <div class="icons mt-5 text-center text-body-tertiary">
+              <p>
+                <i class="fa fa-map-marker me-3 mb-3"></i> New Street 22545, Nexa Road,
+                New York City, USA
+              </p>
+
+              <p class="contactInfo text-danger mb-4">
+                <i class="fa fa-envelope me-3"></i> hello@uigrid.com
+              </p>
+              <p><i class="fa fa-phone me-3"></i> 001-000-000-000</p>
+            </div>
+
+            <div class="social-list ">
+              <ul class="mt-5 ">
+              <i class="fa-brands fa-twitter icon me-2 p-2"></i>
+              <i class="fa-brands fa-facebook-f icon me-2 p-2"></i>
+              <i class="fa-brands fa-instagram icon me-2 p-2"></i>
+              <i class="fa-brands fa-dribbble icon me-2 p-2"></i>
+              <i class="fa-brands fa-pinterest icon me-2 p-2"></i>
+            </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <form class="formContactUs ">
+            <input class="form-control mb-3 rounded-0" type="text" placeholder="Enter Name" />
+            <input class="form-control mb-3 rounded-0" type="email" placeholder="Enter Email" />
+            <textarea class="form-control mb-3  rounded-0" placeholder="Enter Message" rows="8"></textarea>
+            <span class="mt-5 text-danger fs-5" id="characters">100</span> Characyer Reamining
+            <button class="btn bg-danger d-block text-white rounded-0 mt-3 text-uppercase p-2 ">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="./js/code.jquery.com_jquery-3.7.0.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

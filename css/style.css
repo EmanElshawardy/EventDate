@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --first-color: #ccc;
+  --second-color: #777;
+  --third-color: #dc3545;
+}
+a {
+  text-decoration: none;
+}
+header {
+  background-image: url(../images/events-heavenly-header.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 660px;
+  width: 100%;
+}
+.content h1 {
+  font-size: 60px;
+}
+.sideBarContainer {
+  height: 100%;
+  width: 0;
+  padding-top: 60px;
+}
+.closebtn {
+  right: 10%;
+  top: 5%;
+}
+#slider {
+  margin: 5% auto;
+}
+.slider .first {
+  display: block;
+}
+.inner {
+  background-color: var(--first-color);
+  display: none;
+}
+.counter {
+  background-image: url(../images/invitation-2508607__340.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.contactUs i {
+  color: var(--second-color);
+}
+.icon {
+  border: 1px solid var(--second-color);
+}
+.icon:hover {
+  color: #fff;
+  background-color: var(--third-color);
+  border: 1px solid var(--third-color);
+}
+@media screen and (max-width: 600px) {
+  .content h1 {
+    font-size: 30px;
+  }
+}
